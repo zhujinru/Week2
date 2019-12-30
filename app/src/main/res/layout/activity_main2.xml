@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.Main2Activity">
+<TextView
+    android:id="@+id/ewm"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="爱上对方过后就哭了"/>
+    <Button
+        android:id="@+id/zfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是字符串"/>
+    <Button
+        android:id="@+id/dx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是对象"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="400dp" />
+</LinearLayout>
